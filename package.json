@@ -25,7 +25,7 @@
     "start:ci": "npm run update:lists && npm run update:swap && vue-cli-service serve --watch",
     "start": "npm run dev",
     "start:history": "npm run update:mainlists && ROUTER_MODE=history npm run dev",
-    "update": "npm run update:packages && npm run update:lists && npm run update:swap",
+    "update": "npm run update:lists && npm run update:swap",
     "update:lists": "node fetchLists/index.js",
     "update:mainlists": "node fetchLists/fetchMainLists.js",
     "update:packages": "node package-test.js",

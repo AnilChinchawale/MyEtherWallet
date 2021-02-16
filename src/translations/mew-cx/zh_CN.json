@@ -112,7 +112,7 @@
   "value-of-tokens": "Value of Token{plural}",
   "balance": "Balance",
   "choose-hd-path": "Choose HD Derivation Path",
-  "welcome-header": "MyEtherWallet Chrome Extension",
+  "welcome-header": "ATRWallet Chrome Extension",
   "mew-cx-official": "MyEtherWallet's Official Chrome Extension",
   "no-wallet-add": "You don't have any wallet saved. Click and add Wallet to get started",
   "use-burner": "Use a burner account",

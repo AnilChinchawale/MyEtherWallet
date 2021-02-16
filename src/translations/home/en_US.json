@@ -1,7 +1,7 @@
 {
   "tagline1": "Atauro's",
   "tagline2": "Original Wallet",
-  "subheading": "MyEtherWallet (our friends call us MEW) is a free, client-side interface helping you interact with the Ethereum blockchain. Our easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more.",
+  "subheading": "ATRWallet is a free, client-side interface helping you interact with the Ethereum blockchain. Our easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more.",
   "create-new-wallet": {
     "text": "Generate your own unique Ethereum wallet. Receive a public address (0x...) and choose a method for access and recovery."
   },
@@ -14,7 +14,7 @@
   },
   "about-mew": {
     "title": "About MEW",
-    "text": "MyEtherWallet - please, call us MEW - puts the Ethereum blockchain at your fingertips. We are a team of crypto-enthusiasts dedicated to bring you the most secure, most intuitive, and dare we say prettiest way to manage your ETH and ERC20 tokens. We're always here to help, and we're never giving away ETH. Cheers!"
+    "text": "ATRWallet - please, call us MEW - puts the Ethereum blockchain at your fingertips. We are a team of crypto-enthusiasts dedicated to bring you the most secure, most intuitive, and dare we say prettiest way to manage your ETH and ERC20 tokens. We're always here to help, and we're never giving away ETH. Cheers!"
   },
   "join-mew": {
     "title": "Join MEW",
@@ -38,7 +38,7 @@
     },
     "create-wallet": {
       "title": "How do I create a new wallet?",
-      "text": "MyEtherWallet (MEW) offers three ways to create a new ETH wallet. These are via MEW wallet, Keystore file, or Mnemonic phrase. For more information, click"
+      "text": "ATRWallet offers three ways to create a new ETH wallet. These are via MEW wallet, Keystore file, or Mnemonic phrase. For more information, click"
     },
     "mewconnect": {
       "title": "What is MEWconnect?",

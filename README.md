@@ -9,7 +9,7 @@
 
 MyEtherWallet is a doorway to the Ethereum blockchain, allowing users to manage their own funds without a centralized platform. -*Stephen, #MEWForce*
 
-!["MyEtherWallet Logo](./src/assets/images/mew-screen.png "MyEtherWallet")
+!["ATRWallet Logo](./src/assets/images/mew-screen.png "MyEtherWallet")
 
 ## Philosophy
 

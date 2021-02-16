@@ -23,7 +23,7 @@ GH_TAGS="$GH_REPO/releases/tags/$RELEASE"
 payload=$(
     jq --null-input \
     --arg tag "$RELEASE" \
-    --arg name "MyEtherWallet $RELEASE" \
+    --arg name "ATRWallet $RELEASE" \
     --arg body "$CHANGELOG" \
     '{ tag_name: $tag, name: $name, body: $body, draft: false }'
 )

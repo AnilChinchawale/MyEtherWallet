@@ -69,21 +69,7 @@
               </router-link>
               <div class="top-menu">
                 <b-nav>
-                  <b-nav-item
-                    href="https://ccswap.myetherwallet.com/#/"
-                    target="_blank"
-                    class="buy-eth"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      alt
-                      class="buy-eth-icon"
-                      src="@/assets/images/icons/buy-eth.svg"
-                    />
-                    {{ $t('common.buy-eth') }}
-                  </b-nav-item>
-
-                  <b-nav-item-dropdown
+                    <b-nav-item-dropdown
                     v-if="!isMewCx"
                     id="my-nav-dropdown"
                     :text="$t('common.info')"

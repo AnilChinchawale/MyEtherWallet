@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <div class="container--card block--swap">
+      <!-- <div class="container--card block--swap">
         <div class="flex--row--align-center title">
           <h4>{{ $t('common.swap') }}</h4>
           <button
@@ -58,7 +58,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="container--card bottom--buttons">

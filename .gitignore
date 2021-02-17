@@ -19,5 +19,3 @@ selenium-debug.log
 release
 chrome-extension
 
-# Generated files
-src/_generated

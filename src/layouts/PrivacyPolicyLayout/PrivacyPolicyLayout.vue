@@ -190,10 +190,7 @@
             </p>
             <p>
               Requests in relation to the above rights should be sent to:
-              <a
-                href="mailto:support@myetherwallet.com"
-                rel="noopener noreferrer"
-              >
+              <a href="mailto:support@atauro.io" rel="noopener noreferrer">
                 {{ $t('common.support-email') }}
               </a>
             </p>
@@ -227,10 +224,7 @@
             <p>
               We welcome your comments or questions about this Policy. You may
               contact us at:
-              <a
-                href="mailto:support@myetherwallet.com"
-                rel="noopener noreferrer"
-              >
+              <a href="mailto:support@atauro.io" rel="noopener noreferrer">
                 {{ $t('common.support-email') }}
               </a>
             </p>

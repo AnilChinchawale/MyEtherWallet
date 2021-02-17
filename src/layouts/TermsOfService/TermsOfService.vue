@@ -30,7 +30,7 @@
                 bound by the Terms of Service, any additional posted guidelines
                 or rules applicable to specific services and features, and our
                 <a
-                  href="https://www.myetherwallet.com/privacy-policy"
+                  href="https://wallet.atauro.io/privacy-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                   >Privacy Policy</a
@@ -585,11 +585,11 @@
                 We welcome your comments or questions about these Terms of
                 Service. You may contact us at
                 <a
-                  href="mailto:support@myetherwallet.com"
+                  href="mailto:support@atauro.io"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  support@myetherwallet.com</a
+                  support@atauro.io</a
                 >.
               </p>
             </div>

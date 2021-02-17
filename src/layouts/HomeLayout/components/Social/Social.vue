@@ -1,5 +1,6 @@
-
-
+<template>
+  <div></div>
+</template>
 <script>
 import github from '@/assets/images/icons/github.png';
 import reddit from '@/assets/images/icons/reddit.svg';

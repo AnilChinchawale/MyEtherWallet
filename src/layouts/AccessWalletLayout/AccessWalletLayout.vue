@@ -224,7 +224,7 @@ export default {
           func: this.softwareModalOpen,
           title: 'accessWallet.software.option-title',
           desc: 'accessWallet.software.option-text',
-          recommend: 'common.not-recommended.string',
+          recommend: '',
           tooltip: '',
           img: softwareImg,
           imgDisabled: softwareImgDisabled,

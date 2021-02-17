@@ -1,17 +1,14 @@
-
+<template>
+  <div></div>
+</template>
 <script>
 import { mapState } from 'vuex';
-import CustomerSupport from '@/components/CustomerSupport';
 import affiliates from './affiliates.js';
 const version = VERSION;
 import { Misc } from '@/helpers';
-import CxFooter from '@/layouts/ExtensionBrowserAction/components/CxFooter';
 
 export default {
-  components: {
-    'customer-support': CustomerSupport,
-    'cx-footer': CxFooter
-  },
+  components: {},
   data() {
     const isMewCx = Misc.isMewCx();
     return {
@@ -20,7 +17,7 @@ export default {
       lowerLinks: [
         {
           title: 'footer.feedback',
-          href: 'mailto:support@myetherwallet.com'
+          href: 'mailto:support@atauro.io'
         },
         {
           title: 'footer.privacy',
@@ -117,7 +114,7 @@ export default {
             },
             {
               text: 'common.cstm-support',
-              href: 'mailto:support@myetherwallet.com'
+              href: 'mailto:support@atauro.io'
             },
             {
               text: 'common.help-center',

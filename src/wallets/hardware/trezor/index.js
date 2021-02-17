@@ -21,7 +21,7 @@ class TrezorWallet {
   constructor() {
     Trezor.manifest({
       email: 'dev@myetherwallet.com',
-      appUrl: 'https://www.myetherwallet.com'
+      appUrl: 'https://wallet.atauro.io'
     });
 
     this.identifier = trezorType;

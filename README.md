@@ -24,7 +24,7 @@ MyEtherWallet is a doorway to the Ethereum blockchain, allowing users to manage 
 
 ## MEW Around the Web
 
-* [Website: https://www.myetherwallet.com/](https://www.myetherwallet.com/)
+* [Website: https://wallet.atauro.io/](https://wallet.atauro.io/)
 * [CX: https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
 * [Anti-phish CX](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
 * [FB: https://www.facebook.com/MyEtherWallet/](https://www.facebook.com/MyEtherWallet/)

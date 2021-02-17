@@ -9,7 +9,7 @@
         <div v-show="!byJson && !byMnemonic" class="nav-tab-user-input-box">
           <b-tabs class="x100">
             <div v-if="showProgressBar && false" class="progress-bar" />
-            <b-tab
+            <!-- <b-tab
               :title="this.$t('common.mew-wallet.string')"
               class="mew-connect-block"
               active
@@ -71,14 +71,14 @@
               <div class="bottom-image">
                 <img alt src="@/assets/images/icons/snippet-mew-wallet.png" />
               </div>
-            </b-tab>
+            </b-tab> -->
             <b-tab
               :title="$t('createWallet.keystore.title-tab')"
               @click="showProgressBar = true"
             >
-              <div class="warning">
+              <!-- <div class="warning">
                 <warning-message warning-type="create" />
-              </div>
+              </div> -->
               <div class="tab-content-block">
                 <div class="title-block">
                   <div class="title-popover">
@@ -98,9 +98,9 @@
               :title="$t('createWallet.mnemonic.title-tab')"
               @click="showProgressBar = true"
             >
-              <div class="warning">
+              <!-- <div class="warning">
                 <warning-message warning-type="create" />
-              </div>
+              </div> -->
               <div class="tab-content-block">
                 <div class="title-block">
                   <div class="title-popover">
@@ -127,7 +127,6 @@
 </template>
 
 <script>
-import WarningMessage from '@/components/WarningMessage';
 import ByJsonFileContainer from './containers/ByJsonFileContainer';
 import ByMnemonicContainer from './containers/ByMnemonicContainer';
 import TutorialModal from './components/TutorialModal';
@@ -151,8 +150,7 @@ export default {
     'create-wallet-input': CreateWalletInput,
     'create-wallet-input-footer': CreateWalletInputFooter,
     'by-json-page-footer': PageFooter,
-    'ipad-modal': IpadModal,
-    'warning-message': WarningMessage
+    'ipad-modal': IpadModal
   },
   data() {
     return {
@@ -173,14 +171,14 @@ export default {
       platform.product !== null
         ? platform.product.toLowerCase() !== 'ipad'
         : true;
-    const skipTutorial = store.get('skipTutorial');
-    if (
-      skipTutorial === undefined ||
-      skipTutorial === null ||
-      skipTutorial === false
-    ) {
-      this.$refs.tutorialModal.$refs.tutorial.show();
-    }
+    // const skipTutorial = store.get('skipTutorial');
+    // if (
+    //   skipTutorial === undefined ||
+    //   skipTutorial === null ||
+    //   skipTutorial === false
+    // ) {
+    //   this.$refs.tutorialModal.$refs.tutorial.show();
+    // }
   },
   methods: {
     switcher(by) {

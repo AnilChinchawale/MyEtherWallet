@@ -41,13 +41,12 @@
           {{ $t('accessWallet.hardware.modal.button-choose') }}
         </div>
       </div>
-      <customer-support />
+      <!-- <customer-support /> -->
     </div>
   </b-modal>
 </template>
 
 <script>
-import CustomerSupport from '@/components/CustomerSupport';
 import ledger from '@/assets/images/icons/HardwareWallet/ledger.svg';
 import bitbox from '@/assets/images/icons/HardwareWallet/bitbox.svg';
 import secalot from '@/assets/images/icons/HardwareWallet/secalot.svg';
@@ -80,7 +79,6 @@ import {
 } from '@/wallets/bip44/walletTypes';
 export default {
   components: {
-    'customer-support': CustomerSupport,
     'wallet-option': WalletOption
   },
   props: {

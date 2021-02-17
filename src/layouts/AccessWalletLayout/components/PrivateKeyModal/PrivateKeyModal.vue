@@ -10,9 +10,6 @@
     @shown="focusInput"
     @hide="privateKey = ''"
   >
-    <div class="warning">
-      <warning-message />
-    </div>
     <div class="modal-content-block">
       <div class="private-key-form">
         <div class="input-container">
@@ -38,7 +35,7 @@
         />
       </div>
       <div class="customer-support-block">
-        <customer-support />
+        <!-- <customer-support /> -->
       </div>
     </div>
   </b-modal>
@@ -49,15 +46,11 @@ import { WalletInterface } from '@/wallets';
 import { PRIV_KEY as privKeyType } from '@/wallets/bip44/walletTypes';
 import { mapState, mapActions } from 'vuex';
 import { isHexString } from 'ethereumjs-util';
-import WarningMessage from '@/components/WarningMessage';
-import CustomerSupport from '@/components/CustomerSupport';
 import StandardButton from '@/components/Buttons/StandardButton';
 import { Toast } from '@/helpers';
 
 export default {
   components: {
-    'customer-support': CustomerSupport,
-    'warning-message': WarningMessage,
     'standard-button': StandardButton
   },
   data() {

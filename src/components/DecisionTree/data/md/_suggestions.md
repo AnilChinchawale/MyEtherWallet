@@ -6,5 +6,5 @@
 
 #### Contact Form:
 
-* Email us at <mailto:support@myetherwallet.com>
+* Email us at <mailto:support@atauro.io>
 * Include a detailed description of the suggestion.

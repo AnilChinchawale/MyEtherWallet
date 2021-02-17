@@ -63,7 +63,6 @@
                     <ul>
                       <li>{{ $t('home.access-my-wallet.opt-1') }}</li>
                       <li>{{ $t('home.access-my-wallet.opt-2') }}</li>
-                      <li>{{ $t('home.access-my-wallet.opt-3') }}</li>
                     </ul>
                   </div>
                 </div>

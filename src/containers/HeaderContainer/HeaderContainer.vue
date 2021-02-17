@@ -69,21 +69,6 @@
               </router-link>
               <div class="top-menu">
                 <b-nav>
-                    <b-nav-item-dropdown
-                    v-if="!isMewCx"
-                    id="my-nav-dropdown"
-                    :text="$t('common.info')"
-                    toggle-class="nav-link-custom"
-                    right
-                  >
-                    <b-dropdown-item v-if="isHomePage" to="/#about-mew">
-                      {{ $t('common.about') }}
-                    </b-dropdown-item>
-                    <b-dropdown-item to="/#faqs">{{
-                      $t('common.faqs')
-                    }}</b-dropdown-item>
-                  </b-nav-item-dropdown>
-
                   <b-nav-item-dropdown
                     v-if="address !== null"
                     right

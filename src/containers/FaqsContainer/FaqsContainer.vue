@@ -1,10 +1,9 @@
-
+<template>
+  <div></div>
+</template>
 <script>
-import CustomerSupport from '@/components/CustomerSupport';
 export default {
-  components: {
-    'customer-support': CustomerSupport
-  },
+  components: {},
   data() {
     return {
       faqs: {

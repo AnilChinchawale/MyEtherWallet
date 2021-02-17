@@ -48,7 +48,7 @@
           class="strength-of-info ml-5"
         />
         <sotd />
-        <mew-support />
+        <!-- <mew-support /> -->
       </div>
       <success-modal
         ref="successModal"
@@ -64,7 +64,6 @@ import StrengthOfInfoComponent from './components/StrengthOfInfoComponent';
 import BannerComponent from './components/BannerComponent';
 import SOTDComponent from './components/SOTDComponent';
 import BannerSubmitComponent from './components/BannerSubmitComponent';
-import MewSupportComponent from './components/MewSupportComponent';
 import axios from 'axios';
 import SuccessModal from '@/containers/ConfirmationContainer/components/SuccessModal';
 import { Toast } from '@/helpers';
@@ -74,7 +73,6 @@ export default {
     'strength-of-info': StrengthOfInfoComponent,
     'banner-component': BannerComponent,
     'banner-submit-component': BannerSubmitComponent,
-    'mew-support': MewSupportComponent,
     'success-modal': SuccessModal,
     sotd: SOTDComponent
   },

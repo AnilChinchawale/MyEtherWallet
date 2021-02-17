@@ -10,9 +10,6 @@
     @shown="focusInput"
     @hide="clearInputs"
   >
-    <div class="warning">
-      <warning-message />
-    </div>
     <div class="contents">
       <p class="instruction">
         {{ $t('accessWallet.mnemonic.modal.text') }}
@@ -86,14 +83,12 @@
           />
         </div>
       </form>
-      <customer-support />
+      <!-- <customer-support /> -->
     </div>
   </b-modal>
 </template>
 
 <script>
-import CustomerSupport from '@/components/CustomerSupport';
-import WarningMessage from '@/components/WarningMessage';
 import StandardButton from '@/components/Buttons/StandardButton';
 import CreateWalletInput from './components/CreateWalletInput';
 import ExpandingOption from '@/components/ExpandingOption';
@@ -102,8 +97,6 @@ import { Toast } from '@/helpers';
 
 export default {
   components: {
-    'customer-support': CustomerSupport,
-    'warning-message': WarningMessage,
     'standard-button': StandardButton,
     'create-wallet-input': CreateWalletInput,
     'expanding-option': ExpandingOption

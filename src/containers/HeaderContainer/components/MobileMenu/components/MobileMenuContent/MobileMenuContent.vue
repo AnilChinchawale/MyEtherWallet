@@ -50,9 +50,6 @@
     </div>
 
     <div class="all-menu-content-block">
-      <div class="font-reset-disabled mb-5">
-        <customer-support mobile-menu />
-      </div>
       <div
         v-if="account.address"
         class="font-reset-disabled mb-5"
@@ -84,15 +81,13 @@ import MobileMenuButton from '../MobileMenuButton';
 import InterfaceMobileMenu from '@/layouts/InterfaceLayout/components/InterfaceMobileMenuComponent';
 import MobileBalanceBlock from '../MobileBalanceBlock';
 import MobileNetworkBlock from '../MobileNetworkBlock';
-import CustomerSupport from '@/components/CustomerSupport';
 
 export default {
   components: {
     'mobile-menu-button': MobileMenuButton,
     'interface-mobile-menu': InterfaceMobileMenu,
     'mobile-balance-block': MobileBalanceBlock,
-    'mobile-network-block': MobileNetworkBlock,
-    'customer-support': CustomerSupport
+    'mobile-network-block': MobileNetworkBlock
   },
   props: {
     opensettings: {

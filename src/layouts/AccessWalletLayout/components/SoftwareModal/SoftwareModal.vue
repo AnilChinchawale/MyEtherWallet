@@ -8,9 +8,6 @@
     static
     lazy
   >
-    <div class="warning">
-      <warning-message />
-    </div>
     <div class="content-block">
       <div class="d-block content-container text-center">
         <div class="button-options">
@@ -23,14 +20,6 @@
             :name="item.name"
             @updateSelected="updateSelected"
           />
-        </div>
-        <div class="hardware-link">
-          <p>
-            {{ $t('accessWallet.software.modal.purchase-text') }}
-          </p>
-          <router-link to="/hardware-wallet-affiliates">{{
-            $t('accessWallet.software.modal.purchase-link')
-          }}</router-link>
         </div>
         <input
           ref="jsonInput"
@@ -52,14 +41,12 @@
           :click-function="continueAccess"
         />
       </div>
-      <customer-support />
+      <!-- <customer-support /> -->
     </div>
   </b-modal>
 </template>
 
 <script>
-import CustomerSupport from '@/components/CustomerSupport';
-import WarningMessage from '@/components/WarningMessage';
 import byJsonImgHov from '@/assets/images/icons/button-json-hover.svg';
 import byMnemImgHov from '@/assets/images/icons/button-mnemonic-hover.svg';
 import privKeyImgHov from '@/assets/images/icons/button-key-hover.svg';
@@ -69,9 +56,7 @@ import { Toast } from '@/helpers';
 
 export default {
   components: {
-    'customer-support': CustomerSupport,
     'wallet-option': WalletOption,
-    'warning-message': WarningMessage,
     'standard-button': StandardButton
   },
   props: {

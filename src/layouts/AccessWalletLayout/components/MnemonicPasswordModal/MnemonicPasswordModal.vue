@@ -9,9 +9,6 @@
     lazy
     @shown="focusInput"
   >
-    <div class="warning">
-      <warning-message />
-    </div>
     <div class="modal-content-block">
       <form class="password-form">
         <div class="input-container">
@@ -47,22 +44,17 @@
         </button>
       </form>
       <div class="support-block">
-        <customer-support />
+        <!-- <customer-support /> -->
       </div>
     </div>
   </b-modal>
 </template>
 
 <script>
-import CustomerSupport from '@/components/CustomerSupport';
 import { MnemonicWallet } from '@/wallets';
 import { Toast } from '@/helpers';
-import WarningMessage from '@/components/WarningMessage';
 export default {
-  components: {
-    'warning-message': WarningMessage,
-    'customer-support': CustomerSupport
-  },
+  components: {},
   props: {
     hardwareWalletOpen: {
       type: Function,

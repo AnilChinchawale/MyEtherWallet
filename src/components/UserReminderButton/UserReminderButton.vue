@@ -1,10 +1,6 @@
 <template>
-  <div class="user-reminder-button">
-    <img src="~@/assets/images/icons/acknowledge.png" />
-    <p>{{ $t('common.tutorial') }}</p>
-  </div>
+  <div></div>
 </template>
-
 <script>
 export default {
   data() {

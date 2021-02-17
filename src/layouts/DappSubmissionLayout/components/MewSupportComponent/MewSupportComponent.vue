@@ -15,7 +15,7 @@
       <b-link
         class="email-us-btn"
         rel="noopener noreferrer"
-        href="mailto:support@myetherwallet.com"
+        href="mailto:support@atauro.io"
         target="_blank"
         >{{ $t('dappsSubmission.contact-support') }}</b-link
       >

@@ -41,14 +41,13 @@
           {{ $t('accessWallet.mewconnect.modal.text2') }}
         </p>
       </div>
-      <customer-support />
+      <!-- <customer-support /> -->
     </div>
     <!-- .modal-container -->
   </b-modal>
 </template>
 
 <script>
-import CustomerSupport from '@/components/CustomerSupport';
 import { MewConnectWallet } from '@/wallets';
 import { Toast } from '@/helpers';
 import platform from 'platform';
@@ -57,7 +56,6 @@ import IpadModal from '@/components/IpadModal';
 
 export default {
   components: {
-    'customer-support': CustomerSupport,
     'ipad-modal': IpadModal
   },
   data() {

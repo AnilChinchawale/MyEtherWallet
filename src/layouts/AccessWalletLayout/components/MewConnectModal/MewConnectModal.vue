@@ -14,17 +14,7 @@
         <h3>
           {{ $t('accessWallet.mewconnect.scan') }}
         </h3>
-        <div>
-          <p>{{ $t('accessWallet.mewconnect.option-text') }}</p>
-          <i18n path="accessWallet.mewconnect.modal.text2" tag="p">
-            <a
-              slot="action"
-              class="download-now"
-              @click="downloadMEWWalletApp()"
-              >{{ $t('accessWallet.mewconnect.modal.download-now') }}</a
-            >
-          </i18n>
-        </div>
+        
       </div>
       <div class="qr-code-container">
         <qrcode :value="QrCode" :options="{ size: 150 }" />

@@ -94,25 +94,7 @@
                 <create-wallet-input-footer />
               </div>
             </b-tab>
-            <b-tab
-              :title="$t('createWallet.mnemonic.title-tab')"
-              @click="showProgressBar = true"
-            >
-              <!-- <div class="warning">
-                <warning-message warning-type="create" />
-              </div> -->
-              <div class="tab-content-block">
-                <div class="title-block">
-                  <div class="title-popover">
-                    <h3>{{ $t('createWallet.mnemonic.title') }}</h3>
-                    <popover
-                      :popcontent="$t('createWallet.mnemonic.popover')"
-                    />
-                  </div>
-                </div>
-                <by-mnemonic-container />
-              </div>
-            </b-tab>
+           
           </b-tabs>
         </div>
         <by-json-file-container

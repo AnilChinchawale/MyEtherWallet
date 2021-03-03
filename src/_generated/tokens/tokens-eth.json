@@ -5,7 +5,7 @@
         "type": "ERC20",
         "address": "0x1f3ce12f7d9c589bf825cec15642bc37eae9e89e",
         "ens_address": "",
-        "decimals": 18,
+        "decimals": 8,
         "website": "https://www.atauro.io",
         "logo": {
             "src": "",
